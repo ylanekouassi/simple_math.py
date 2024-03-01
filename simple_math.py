@@ -6,5 +6,17 @@ if operator == "+":
     total = num1 + num2
     print(f"Result= {total}")
 
+elif operator == "-":
+    total = num1 - num2
+    print(f"Result = {total}")
+
+elif operator == "*":
+    total = num1 * num2
+    print(f"Result = {total}")
+
+elif operator == "/":
+    total = num1 / num2
+    print(f"Result = {total}")
+    
 else:
     print(f"{operator} is not a valid operator...")
